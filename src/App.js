@@ -8,10 +8,8 @@ export default function App() {
 
 	return (
 		<ul>
-			{DUMMY_TODOS.map((todo) => (
-				<Todo text={todo} />
-			))}
-			{/* Udemy solution is in the line above. */}
+			<Todo todos={DUMMY_TODOS} />
+			{/* My solution is in the line above. */}
 		</ul>
 	);
 }

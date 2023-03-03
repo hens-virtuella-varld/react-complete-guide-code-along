@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Todo(props) {
-	return <li>{props.text}</li>; // Udemy solution.
+	return props.todos.map((text) => <li>{text}</li>); // My solution.
 }
